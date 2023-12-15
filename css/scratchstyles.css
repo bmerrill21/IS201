@@ -1,0 +1,51 @@
+/* body {
+    background-image: url('/Users/benjaminmerrill/Desktop/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+} */
+body{
+    background-image: url('https://wallpaperaccess.com/full/487823.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header{
+    background-color: white;
+    text-align: center;
+    margin-top: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.content{
+    background-color: white;
+    display: block;
+    color: forestgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: .5%;
+    
+}
+#top {
+    display: block;        /* Ensures the image is a block-level element */
+    width: 30%;            /* Sets the width of the image to 50% of its containing element */
+    margin: 0 auto;        /* Centers the image horizontally */
+    position: absolute;    /* Positions the image absolutely relative to its nearest positioned ancestor or to the initial containing block */
+    top: 0;                /* Positions the top edge of the image at the top of the container */
+    left: 0;               /* Aligns the image to the left */
+    right: 0;              /* Aligns the image to the right */
+}
+.center-video {
+    display: block;  /* Makes the iframe a block-level element */
+    margin: 0 auto;  /* Centers the iframe horizontally within its container */
+}
+.footer{
+    float:right;
+    bottom: 10px;
+    width: 50%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+
+    
+}
+
